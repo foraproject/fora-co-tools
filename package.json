@@ -1,0 +1,17 @@
+{
+    "author": "Jeswin Kumar <jeswinpk@agilehead.com>",
+    "name": "fora-co-tools",
+    "version": "0.2.0",
+    "description": "Additional features for the visionmedia/co project, especially around debugging generators.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jeswin/fora-co-tools.git"
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+    },
+    "engines": { "node": ">= 0.11.9" },
+    "keywords": ["co", "async", "generators", "debugging"],
+    "license" : "GPL-3.0+"
+}
