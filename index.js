@@ -1,5 +1,6 @@
 (function() {
-    "use strict"
+
+    "use strict";
 
     /**
      * Check if `obj` is a generator.
@@ -36,13 +37,14 @@
                         else if (isGenerator(array[i]))
                             results[i] = yield* array[i];
                         else
-                            throw new Error("Pass an array of generator functions or generators")
+                            throw new Error("Pass an array of generator functions or generators");
                     }
                     return results;
                 } else {
                     return yield array;
                 }
             }
-        }
-    }
+        };
+    };
+    
 })();

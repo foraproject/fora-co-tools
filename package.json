@@ -1,7 +1,7 @@
 {
     "author": "Jeswin Kumar <jeswinpk@agilehead.com>",
     "name": "fora-co-tools",
-    "version": "0.2.0",
+    "version": "0.9.20",
     "description": "Additional features for the visionmedia/co project, especially around debugging generators.",
     "repository": {
         "type": "git",
